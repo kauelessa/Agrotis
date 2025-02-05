@@ -1,0 +1,81 @@
+object DMPrincipal: TDMPrincipal
+  Height = 480
+  Width = 640
+  object qryCliente: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT * FROM CLIENTE')
+    Left = 56
+    Top = 80
+    object qryClienteCodigoCliente: TFDAutoIncField
+      FieldName = 'CodigoCliente'
+      Origin = 'CodigoCliente'
+      ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
+    end
+    object qryClienteNome: TStringField
+      FieldName = 'Nome'
+      Origin = 'Nome'
+      Size = 100
+    end
+    object qryClienteCEP: TStringField
+      FieldName = 'CEP'
+      Origin = 'CEP'
+      Size = 10
+    end
+    object qryClienteLogradouro: TStringField
+      FieldName = 'Logradouro'
+      Origin = 'Logradouro'
+      Size = 100
+    end
+    object qryClienteComplemento: TStringField
+      FieldName = 'Complemento'
+      Origin = 'Complemento'
+      Size = 50
+    end
+    object qryClienteBairro: TStringField
+      FieldName = 'Bairro'
+      Origin = 'Bairro'
+      Size = 50
+    end
+    object qryClienteCidade: TStringField
+      FieldName = 'Cidade'
+      Origin = 'Cidade'
+      Size = 50
+    end
+    object qryClienteUF: TStringField
+      FieldName = 'UF'
+      Origin = 'UF'
+      FixedChar = True
+      Size = 2
+    end
+    object qryClienteCodigoIBGE: TStringField
+      FieldName = 'CodigoIBGE'
+      Origin = 'CodigoIBGE'
+      Size = 10
+    end
+  end
+  object qryProduto: TFDQuery
+    Left = 184
+    Top = 80
+  end
+  object qryPedido: TFDQuery
+    Left = 312
+    Top = 80
+  end
+  object qryItens: TFDQuery
+    Left = 440
+    Top = 80
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=AGROTIS'
+      'Server=localhost'
+      'DriverID=MSSQL'
+      'OSAuthent=Yes')
+    Connected = True
+    LoginPrompt = False
+    Left = 184
+    Top = 224
+  end
+end

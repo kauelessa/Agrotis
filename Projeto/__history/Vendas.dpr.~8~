@@ -1,0 +1,22 @@
+program Vendas;
+
+uses
+  Vcl.Forms,
+  View.Principal in '..\View\View.Principal.pas' {Form1},
+  Classe.Controller in '..\Classe\Classe.Controller.pas',
+  Model.Cliente in '..\Model\Model.Cliente.pas',
+  Controller.Cliente in '..\Controller\Controller.Cliente.pas',
+  Model.CEP in '..\Model\Model.CEP.pas',
+  Classe.Base.Singleton in '..\Classe\Classe.Base.Singleton.pas',
+  Classe.Singleton in '..\Classe\Classe.Singleton.pas',
+  Classe.Conexao in '..\Classe\Classe.Conexao.pas',
+  Classe.API.Client in '..\Classe\Classe.API.Client.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

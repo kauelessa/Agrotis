@@ -1,0 +1,33 @@
+unit Classe.Base.Singleton;
+
+interface
+
+uses
+  Generics.Collections, Rest.Json, System.JSON;
+
+type
+  TBaseSingleton<T:class> = class
+    private
+    public
+      function ToJsonString: string; virtual; abstract;
+      function FromJsonString(AJsonString: string): T; virtual; abstract;
+      class function GetInstance: T; virtual; abstract;
+  end;
+
+implementation
+
+{ TClasseBase<T> }
+
+//function TBaseSingleton<T>.FromJsonString(AJsonString: string): T;
+//begin
+//  Result := TClass(T).Create as T;
+//  TJson.JsonToObject(Result, TJSONObject(AJsonString).Create);
+////  TJson.JsonToObject<TBaseSingleton<T>>(AJsonString)
+//end;
+//
+//function TBaseSingleton<T>.ToJsonString: string;
+//begin
+//  Result := TJson.ObjectToJsonString(TClass(T).Create);
+//end;
+
+end.

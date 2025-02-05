@@ -1,0 +1,16 @@
+unit Classe.Base;
+
+interface
+
+uses
+  Generics.Collections, Rest.Json;
+
+type
+  TClasseBase<T:class> = class
+    private
+    public
+  end;
+
+implementation
+
+end.

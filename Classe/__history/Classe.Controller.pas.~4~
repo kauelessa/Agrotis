@@ -1,0 +1,37 @@
+unit Classe.Controller;
+
+interface
+
+uses
+  System.Generics.Collections, Data.DB, Data.SqlExpr;
+
+type
+  TClasseController = class
+  protected
+    FQuery: TSQLQuery;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    procedure Salvar; virtual; abstract;
+    procedure Excluir; virtual; abstract;
+    procedure Carregar(Codigo: Integer); virtual; abstract;
+  end;
+
+implementation
+
+uses
+  Singleton.Conexao;
+
+constructor TClasseController.Create;
+begin
+  FQuery := TSQLQuery.Create(nil);
+  FQuery.SQLConnection := TConexao.GetInstance.Connection;
+end;
+
+destructor TClasseController.Destroy;
+begin
+  FQuery.Free;
+  inherited;
+end;
+
+end.

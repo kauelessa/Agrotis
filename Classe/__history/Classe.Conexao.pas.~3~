@@ -1,0 +1,53 @@
+unit Classe.Conexao;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Data.SqlExpr, Classe.Base.Singleton;
+
+type
+  TConexao = class(TClasseBaseSingleton<TConexao>)
+  private
+    class var FInstance: TConexao;
+    FConnection: TSQLConnection;
+    function GetConnection: TSQLConnection;
+    constructor CreatePrivate;
+  public
+    property Connection: TSQLConnection read GetConnection;
+    destructor Destroy; override;
+    class function GetInstance: TConexao; override;
+  end;
+
+implementation
+
+constructor TConexao.CreatePrivate;
+begin
+  inherited Create;
+  FConnection := TSQLConnection.Create(nil);
+  FConnection.DriverName := 'SQLServer';
+  FConnection.Params.Values['Database'] := 'NomeDoBanco';
+  FConnection.Params.Values['User_Name'] := 'usuario';
+  FConnection.Params.Values['Password'] := 'senha';
+  FConnection.LoginPrompt := False;
+  FConnection.Connected := True;
+end;
+
+function TConexao.GetConnection: TSQLConnection;
+begin
+  Result := FConnection;
+end;
+
+class function TConexao.GetInstance: TConexao;
+begin
+  if not Assigned(FInstance) then
+    FInstance := TConexao.CreatePrivate;
+  Result := FInstance;
+end;
+
+destructor TConexao.Destroy;
+begin
+  FConnection.Free;
+  inherited;
+end;
+
+end.

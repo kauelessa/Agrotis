@@ -1,0 +1,30 @@
+unit Model.Pedido;
+
+interface
+
+{
+Código
+Referência
+Nº do Pedido
+Data Emissão
+Código do Cliente
+Tipo Operação - Entrada/Saída
+Total do Pedido (calculado a partir do somatório do TOTAL DOS ITENS)}
+
+type
+  TPedido = class
+    private
+      class var FInstance: TPedido;
+    public
+      property CodigoPedido: Integer;
+      property Referencia: string;
+      property NumeroPedido: Integer;
+      property DataEmissao: TDateTime;
+      property CodigoCliente: Integer;
+      property TipoOperacao: string;
+      property TotalPedido: Extended;
+  end;
+
+implementation
+
+end.

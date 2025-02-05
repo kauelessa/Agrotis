@@ -1,0 +1,13 @@
+unit Classe.Singleton;
+
+interface
+
+type
+  TSingleton<T:class> = class
+    private
+    public
+  end;
+
+implementation
+
+end.

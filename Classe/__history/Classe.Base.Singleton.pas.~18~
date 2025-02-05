@@ -1,0 +1,60 @@
+unit Classe.Base.Singleton;
+
+interface
+
+uses
+  Generics.Collections, Rest.Json, System.JSON;
+
+type
+  TBaseSingleton<T:class, constructor> = class
+    strict private
+      class var FInstance: T;
+    public
+//      function ToJsonString: string; virtual; abstract;
+//      function FromJsonString(AJsonString: string): T; virtual; abstract;
+      class function GetInstance: T;
+      class procedure ReleaseInstance;
+      constructor Create; virtual; abstract;
+  end;
+
+implementation
+
+{ TClasseBase<T> }
+
+//function TBaseSingleton<T>.FromJsonString(AJsonString: string): T;
+//begin
+//  Result := TClass(T).Create as T;
+//  TJson.JsonToObject(Result, TJSONObject(AJsonString).Create);
+////  TJson.JsonToObject<TBaseSingleton<T>>(AJsonString)
+//end;
+//
+//function TBaseSingleton<T>.ToJsonString: string;
+//begin
+//  Result := TJson.ObjectToJsonString(TClass(T).Create);
+//end;
+
+{ TBaseSingleton<T> }
+
+//constructor TBaseSingleton<T>.Create;
+//begin
+//  inherited Create;
+//
+//end;
+
+class function TBaseSingleton<T>.GetInstance: T;
+begin
+  if not Assigned(FInstance) then
+    FInstance := T.Create;
+  Result := FInstance;
+end;
+
+class procedure TBaseSingleton<T>.ReleaseInstance;
+begin
+  if Assigned(FInstance) then
+  begin
+    FInstance.Free;
+    FInstance := nil;
+  end;
+end;
+
+end.

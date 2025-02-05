@@ -1,0 +1,14 @@
+unit Classe.Singleton;
+
+interface
+
+type
+  TSingleton<T:class> = class
+    private
+      class var FInstance: T;
+    public
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/01/31 17:38:52.000.473,=C:\Projetos\Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/01/31 17:43:28.000.629,C:\Projetos\Delphi\Agrotis\View\View.Principal.pas=C:\Projetos\Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/01/31 17:43:28.000.629,C:\Projetos\Delphi\Agrotis\View\View.Principal.dfm=C:\Projetos\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2025/01/31 17:45:30.000.513,C:\Projetos\Delphi\Agrotis\Projeto\Vendas.dproj=C:\Projetos\Delphi\Project1.dproj</Transaction>
+    <Transaction>2025/01/31 17:45:47.000.789,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/01/31 17:52:49.000.808,C:\Projetos\Delphi\Agrotis\Singleton\Singleton.Conexao.pas=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/01/31 18:16:09.000.019,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/01/31 18:20:05.000.027,C:\Projetos\Delphi\Agrotis\Classe\Classe.Base.pas=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/01/31 18:22:36.000.322,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/01/31 18:23:01.000.572,C:\Projetos\Delphi\Agrotis\Model\Model.Cliente.pas=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/01/31 18:27:44.000.050,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/01/31 18:28:35.000.516,C:\Projetos\Delphi\Agrotis\Controller\Controller.Cliente.pas=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/01 22:52:16.000.013,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/01 22:52:44.000.227,C:\Projetos\Delphi\Agrotis\Model\Model.CEP.pas=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/01 23:26:06.000.754,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/01 23:29:49.000.981,C:\Projetos\Delphi\Agrotis\Classe\Classe.JSON.pas=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/01 23:43:39.000.336,C:\Projetos\Delphi\Agrotis\Classe\Classe.Controller.pas=C:\Projetos\Delphi\Agrotis\Classe\Classe.Base.pas</Transaction>
+    <Transaction>2025/02/01 23:44:33.000.085,C:\Projetos\Delphi\Agrotis\Classe\Classe.Base.pas=C:\Projetos\Delphi\Agrotis\Classe\Classe.JSON.pas</Transaction>
+    <Transaction>2025/02/02 00:40:13.000.848,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/02 00:40:37.000.200,C:\Projetos\Delphi\Agrotis\Classe\Classe.Singleton.pas=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/02 00:57:02.000.411,C:\Projetos\Delphi\Agrotis\Classe\Classe.Base.Singleton.pas=C:\Projetos\Delphi\Agrotis\Classe\Classe.Base.pas</Transaction>
+    <Transaction>2025/02/02 01:03:22.000.429,C:\Projetos\Delphi\Agrotis\Singleton\Classe.Conexao.pas=C:\Projetos\Delphi\Agrotis\Singleton\Singleton.Conexao.pas</Transaction>
+    <Transaction>2025/02/02 01:03:56.000.169,C:\Projetos\Delphi\Agrotis\Singleton\Classe.Conexao.pas=</Transaction>
+    <Transaction>2025/02/02 01:04:29.000.370,=C:\Projetos\Delphi\Agrotis\Classe\Classe.Conexao.pas</Transaction>
+    <Transaction>2025/02/02 14:53:45.000.370,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/02 15:01:40.000.877,C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas=C:\Projetos\Delphi\Agrotis\Classe\Classe.API.Client.pas</Transaction>
+    <Transaction>2025/02/02 22:02:29.000.356,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/02 22:03:52.000.229,C:\Projetos\Delphi\Agrotis\Data\Data.Principal.pas=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/02 22:03:52.000.229,C:\Projetos\Delphi\Agrotis\Data\Data.Principal.dfm=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2025/02/03 03:06:22.000.658,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/03 03:06:47.000.020,C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas=C:\Projetos\Delphi\Agrotis\Controller\Controller.Produto.pas</Transaction>
+    <Transaction>2025/02/03 03:09:25.000.787,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/03 03:09:46.000.016,C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas=C:\Projetos\Delphi\Agrotis\Model\Model.Produto.pas</Transaction>
+    <Transaction>2025/02/03 23:21:26.000.971,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/03 23:26:50.000.434,=C:\Projetos\Delphi\Agrotis\Controller\Controller.Itens.pas</Transaction>
+    <Transaction>2025/02/03 23:26:50.000.466,=C:\Projetos\Delphi\Agrotis\Controller\Controller.Pedido.pas</Transaction>
+    <Transaction>2025/02/03 23:50:25.000.311,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/03 23:51:15.000.323,C:\Projetos\Delphi\Agrotis\Model\Model.Pedido.pas=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/04 02:53:21.000.941,=C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas</Transaction>
+    <Transaction>2025/02/04 02:53:48.000.061,C:\Projetos\Delphi\Agrotis\Projeto\Unit1.pas=C:\Projetos\Delphi\Agrotis\Model\Model.Item.pas</Transaction>
+  </Transactions>
+</BorlandProject>
